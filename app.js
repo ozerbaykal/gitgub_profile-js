@@ -96,6 +96,7 @@ async function getRepos(username) {
 }
 
 function addReposToCard(repos) {
+    if (!Array.isArray(repos) || repos.length === 0) return;
     const reposEl = document.getElementById('repos')
 
     repos.slice(0, 3).forEach((repo) => {
