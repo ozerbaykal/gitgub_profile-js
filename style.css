@@ -86,6 +86,12 @@ main {
     border-radius: 1rem;
 }
 
+.card.error {
+    background: rgb(220, 20, 60);
+    color: #ffff;
+
+}
+
 .user-image {
     width: 150px;
     border-radius: 50%;
